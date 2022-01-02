@@ -11,11 +11,9 @@ while True:
         if User > Comp:
             print ("you win!")
             User_Score+=1
-            print (User_Score)
         elif User < Comp:
             print ("you lose")
             Comp_Score+=1
-            print (Comp_Score)
         if User == Comp:
             print ("its a draw")
         print("Player Score:", User_Score)
